@@ -20,6 +20,41 @@ The turtle starts at position(0, 0) with heading 0 degrees.
 """
 
 ### YOUR CODE STARTS HERE
+turtle.speed(15)
+degrees = 5
+
+turtle.speed(10)
+for i in range(555):
+    dtsf = degrees*i
+    turtle.forward(2 * (phi**(dtsf / 90)))
+    turtle.right(degrees)
+
+    degrees = 5
+turtle.up
+turtle.setposition(0,0)
+
+turtle.speed(10)
+for i in range(555):
+    dtsf = degrees*i
+    turtle.forward(2 * (phi**(dtsf / 90)))
+    turtle.right(degrees)
+
+
+degrees = 5
+turtle.setposition(1,1)
+
+turtle.speed(10)
+for i in range(555):
+    dtsf = degrees*i
+    turtle.forward(2 * (phi**(dtsf / 90)))
+    turtle.right(degrees)
+
+
+
+
+
+
+
 
 
 ### YOUR CODE ENDS HERE

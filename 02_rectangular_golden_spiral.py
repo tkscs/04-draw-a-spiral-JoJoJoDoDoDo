@@ -14,6 +14,13 @@ initial_arm_length * (phi**i)
 ### YOUR CODE STARTS HERE
 
 
+turtle.speed(10)
+for i in range(20):
+    turtle.forward(1.618**i)
+    turtle.right(90)
+
+
+
 ### YOUR CODE ENDS HERE
 
 turtle.exitonclick()
